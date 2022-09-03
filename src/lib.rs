@@ -1,6 +1,8 @@
 #[macro_export]
 macro_rules! lööp {
-    ( $($statement:stmt;)* ) => { loop { $( $statement )* } };
+    ( $($statement:stmt;)* ) => {
+        loop { $( $statement )* }
+    };
 }
 
 #[cfg(test)]
