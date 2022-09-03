@@ -10,3 +10,11 @@ repository = "https://github.com/FADEOffical/loopcat"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[lib]
+name = "loopcat"
+path = "src/lib.rs"
+
+[[bin]]
+name = "loopcat-example"
+path = "example/main.rs"

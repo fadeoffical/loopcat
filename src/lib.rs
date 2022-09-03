@@ -1,6 +1,6 @@
 #[macro_export]
 macro_rules! lööp {
-    ( $($statement:stmt;)* ) => {
+    ( $($statement:tt)* ) => {
         loop { $( $statement )* }
     };
 }
